@@ -1,0 +1,82 @@
+
+*{
+    --Brightorange: hsl(31, 77%, 52%);
+    --Darkcyan: hsl(184, 100%, 22%);
+    --Verydarkcyan: hsl(179, 100%, 13%);
+    --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+    --Verylightgray: hsl(0, 0%, 95%);
+
+    margin: 0;
+
+    padding: 0 ;
+
+}
+@media only screen and (max-width: 825px){
+.main{
+        
+        flex-wrap: wrap;
+        justify-content: center;
+        border-radius: 0;
+      }
+   
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 20px;
+   p {
+    font-family: "Lexend Deca", sans-serif;
+    color: white;
+    line-height: 25px;
+    font-weight: 200;
+    margin-bottom: 20px;
+  font-size: 14px;
+   
+}
+  }
+    h2{
+        color: white;
+        font-size: 40px;
+        font-family: "Big Shoulders Display", sans-serif;
+    }
+
+
+.sec-1{
+    background-color: var(--Brightorange);
+  padding: 30px 39px;
+  border-radius: 10px 0 0 10px;
+  button{
+    color: var(--Brightorange);
+ }
+}
+.sec-2{
+background-color: var(--Darkcyan);
+padding: 30px;
+button{ color: var(--Darkcyan);}
+}
+.sec-3{
+    background-color: var(--Verydarkcyan);
+    padding: 30px;
+    border-radius: 0 10px 10px 0;
+      button {
+        color: var(--Verydarkcyan);
+            }
+}
+section h2{
+  margin-top: 20px;
+  margin-bottom: 20px;
+    
+}
+section button{
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: solid white;
+    cursor: pointer;
+
+}
+section svg{
+  margin-bottom: 10px;
+}
